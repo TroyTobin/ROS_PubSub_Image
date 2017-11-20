@@ -1,21 +1,21 @@
-# ROS_PubSub_Image
+# ROS Publish/Subscribe Example
 
-# Building
+## Building
 run `catkin_make`
 
-# Running
-## Start ROS Core
+## Running
+### Start ROS Core
 ```
 $ roscore
 ```
 
-## Start the Image publisher
+### Start the Image publisher
 ```
 $ source devel/setup.bash
 $ rosrun publisher publisher.py 
 ```
 
-## Start the Image subscriber
+### Start the Image subscriber
 ```
 $ source devel/setup.bash
 $ rosrun subscriber subscriber.py 
